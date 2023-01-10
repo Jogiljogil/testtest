@@ -17,5 +17,7 @@ Remote Repository 등록: git remote add origin remote repository주소
 
 로컬에서 리모트로 보내기: git push -u origin main
 (-u는 --set-upstream: 로컬에 main브랜치가 origin브랜치를 tracking 하겠다)
-(후에는 git push git pull만 써도 가능)   
+(후에는 git push git pull만 써도 가능)
+
+git 리모트 변경: git remote remove origin => git remote add origin [리모트주소]   
 
